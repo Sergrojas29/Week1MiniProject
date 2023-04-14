@@ -1,0 +1,80 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 10cap;
+  color: white;
+  text-align: right;
+  background-color:#08415C;
+
+}
+h1, h2{
+  margin: 10px;
+
+}
+figure{
+  margin: 30px;
+}
+h1{
+  font-variant: var(20px);
+}
+li {
+  display: inline;
+  text-align: left;
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+  
+  font-size: xx-large;
+}
+
+label {
+    margin: 5px;
+}
+form{
+  margin: 0 auto;
+  position: relative;
+
+  text-align: center;
+  background-color: #6A3549;
+  border: 2px solid black;
+  width: 500px;
+  height: 100px;
+  border-radius: 25px;
+}
+
+body {
+  background-color:#393B53;
+  text-align: center;
+}
+
+/* 
+main{
+  background-color: black;
+  size: 200px;
+} */
+
+
+footer{
+  text-align: center;
+  margin: 20px;
+
+}
+/* Element Selectors */
+
+/* Center the form on the page */
+
+
+/* Class Selectors */
