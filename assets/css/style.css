@@ -1,6 +1,5 @@
 /* Universal Selector */
 * {
-  margin: 0;
   padding: 0;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -12,20 +11,26 @@ footer {
   margin-bottom: 10px;
   padding: 10px;
   font-size: 10cap;
-  color: white;
-  text-align: right;
-  background-color:#08415C;
 
+  text-align: right;
+  background-color:#3c474b;
+
+}
+body {
+  background-color:#2e2e2e;
+  text-align: center;
+  color: black;
 }
 h1, h2{
   margin: 10px;
 
 }
 figure{
-  margin: 30px;
+  margin: 10px;
 }
 h1{
   font-variant: var(20px);
+  padding-top: 20px;
 }
 li {
   display: inline;
@@ -44,29 +49,53 @@ label {
     margin: 5px;
 }
 form{
-  margin: 0 auto;
+  margin: auto auto;
   position: relative;
-
+  padding-top: 30px;
   text-align: center;
-  background-color: #6A3549;
+  background-color: #3c4e52;
   border: 2px solid black;
-  width: 500px;
+  width: 400px;
   height: 100px;
   border-radius: 25px;
+ }
+
+ label{
+  font-weight: bold;
+ }
+.centermain{
+  margin: auto auto;
+
 }
 
-body {
-  background-color:#393B53;
-  text-align: center;
+img{
+  border: #2e2e2e;
+  border-radius: 25PX;
 }
 
-/* 
 main{
-  background-color: black;
-  size: 200px;
-} */
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: #618585 ;
+  width: 500px;
+  height: 750px;
+  border: #888E90;
+  border-radius: 25px;
+  box-shadow: 5px 10px rgb(36, 36, 36);
+}
+
+#framesize{
+  cursor: pointer;
+  text-align: center;
+  font-size: 12pt;
+  width: 60px;
+  height: 30px;
+  margin: 10px;
+  color: white;
+  background-color: #3c474b;
 
 
+}
 footer{
   text-align: center;
   margin: 20px;
