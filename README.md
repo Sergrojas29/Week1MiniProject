@@ -4,7 +4,7 @@ In this mini-project, you will build a landing page using HTML and CSS. While yo
 
 
 Project Website
-    https://sergrojas29.github.io/Week1MiniProject/ 
+   
 
 ## Instructions
 
